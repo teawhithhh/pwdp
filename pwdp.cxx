@@ -12,7 +12,7 @@ int main(int argc, char* argv[])
 		std::cout << "Path\n"
 			  << "----\n"
 			  << cur_path.string() << '\n';
-	}	else if (argc == 2){
+	} else if (argc == 2) {
 		fs::path cur_argv_path{fs::absolute(argv[1])};
 		std::cout << "Path\n"
 			  << "----\n"
